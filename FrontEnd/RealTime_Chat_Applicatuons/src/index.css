@@ -1,0 +1,60 @@
+body{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: black;
+  color: white;
+  min-height:100vh ;
+}
+
+h1{
+  animation: load 1s ease-in-out;
+}
+
+@keyframes load {
+0%{
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+  padding-bottom: 20px;
+}  
+5%{
+  color: rgb(125, 125, 255);
+
+}
+/* 50%{
+  color: rgb(39, 37, 37);
+  padding-bottom: 50px;
+}
+100%{
+  color: rgb(255, 249, 249);
+} */
+}
+/* #input-box{
+  height: 30px;
+  width: 120%;
+  animation: infinite box-b ease-in-out;
+  
+}
+
+@keyframes box-b {
+  0%{
+    border: solid red 5px;
+    border-top: gold;
+  }
+  25%{
+    border: solid red 5px;
+    border-right: rgb(0, 255, 157);
+  }
+  50%{
+    border: solid red 5px;
+    border-bottom: rgb(0, 119, 255);
+  }
+  75%{
+    border: solid red 5px;
+    border-left: rgb(234, 0, 255);
+  }
+  /* 100%{
+    border: solid red 5px;
+    border-top: rgb(255, 0, 93);
+  } */
+  
